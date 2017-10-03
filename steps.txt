@@ -1,12 +1,18 @@
 Anna Ruble
 CS165 - Week 6 Exercise 9
 
-Steps taken to complete this assignment:
+Steps taken to complete this exercise:
 1. Created an account on GitHub
 2. Clicked the button to create a new repo on GitHub, filled out information
 3. In command line, cloned repo by:
 	git clone 'https://github.com/rublan01/CS165-Wk6Ex9'
 4. Created this file using vi steps.txt
 	git add steps.txt
+	git status
+	git config --global user.email 'anna@anna-virtual-machine'
+	git config --global user.name 'Virtual Anna'
 	git commit -m 'steps.txt'
 	git push
+	Entered in user/pass for rublan01 GitHub Account
+	It worked
+5. Now on GitHub and manually editing this file online
