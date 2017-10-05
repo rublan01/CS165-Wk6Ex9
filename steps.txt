@@ -16,3 +16,20 @@ Steps taken to complete this exercise:
 	Entered in user/pass for rublan01 GitHub Account
 	It worked
 5. Now on GitHub and manually editing this file online
+	Committed directly to master branch via GitHub web interface
+6. git pull
+	cat steps.txt
+	My updates were shown in the steps file.
+7. rm steps.txt
+	steps.txt was deleted
+8. git checkout -- steps.txt
+9. Enabling SSH keys:
+	Check for SSH keys 	ls -al ~/.ssh
+	Generating new SSH key	ssh-keygen -t rsa -b 4096 -C "rublan01@luther.edu"
+	Start SSH-agent in background	eval "$(ssh-agent -s)"
+	Add SSH key	 	ssh-add -k ~/.ssh/id_rsa
+	Copy SSH key to clipboard 	cd ~/.ssh | ls | cat id_rsa.pub
+	Reconnected detached head:
+		git checkout master
+		git status
+10. Invited and updated steps.txt with continued assignment steps
